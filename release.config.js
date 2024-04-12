@@ -1,5 +1,6 @@
 const config = {
     branches: ['main'],
+    preset: "angular", // if we don't add this line, the release note will only display the commit message with feat, fix, BREAKING CHANGE.
     plugins: [
       '@semantic-release/commit-analyzer',
       '@semantic-release/release-notes-generator',
