@@ -15,4 +15,4 @@ npm i semantic-release @semantic-release/git @semantic-release/github @semantic-
 => it will be a major release
 * if your commit message is fix: => it will be a minor release, and message will be in the release note
 * if your commit message is feat: => it will be a patch release, and message will be in the release note
-* if your commit message is chore:, refactor:, docs:, test: => it will be a patch release, and message won't in the release note
+* if your commit message is chore:, refactor:, docs:, test: => it will be a patch release, and message won't in the release note.
