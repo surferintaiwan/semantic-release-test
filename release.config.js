@@ -17,7 +17,8 @@ const config = {
           { "type": "docs", "scope": "README", "release": "patch" },
           { "type": "refactor", "release": "patch" },
           { "type": "style", "release": "patch" },
-          { "type": "test", "release": "patch" }
+          { "type": "test", "release": "patch" },
+          { "type": "chore", "release": "minor" }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
