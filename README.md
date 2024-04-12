@@ -11,7 +11,7 @@ npm i semantic-release @semantic-release/git @semantic-release/github -D
 
 4. commit your code
 
-* if you commit message is feat: and your commit description is BREAKING CHANGE: 
+* if your commit message is feat: and your commit description is BREAKING CHANGE: 
 => it will be a major release
 * if your commit message is feat: => it will be a patch release
 * if your commit message  fix: => it will be a minor release
