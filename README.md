@@ -15,4 +15,4 @@ npm i semantic-release @semantic-release/git @semantic-release/github -D
 => it will be a major release
 * if your commit message is feat: => it will be a patch release
 * if your commit message  fix: => it will be a minor release
-* if your commit message is chore:, refactor:, docs:, test: => it won't trigger a release version
+* if your commit message is chore:, refactor:, docs:, test: => it won't trigger a release version(I think there are some methods to trigger a release version, but I don't know yet.)
