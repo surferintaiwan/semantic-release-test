@@ -1,7 +1,7 @@
 # semantic-release-test
 1. install semantic-release and other plugins
 ```
-npm i semantic-release @semantic-release/git @semantic-release/github -D
+npm i semantic-release @semantic-release/git @semantic-release/github @semantic-release/commit-analyzer -D
 ```
 
 2. create release.config.js on root
