@@ -18,4 +18,5 @@ npm i semantic-release @semantic-release/git @semantic-release/github @semantic-
 => it will be a major release
 * if your commit title is feat: => it will be a minor release, and title will be in the release note
 * if your commit title is fix: => it will be a patch release, and title will be in the release note
-* if your commit title is chore:, refactor:, docs:, test:, docs: => it will be a patch release, but the title won't in the release note.
+* if your commit title is refactor:, style:, test:, chore: => it will be a patch release, but the title won't in the release note.
+* if your commit title is docs: => it won't trigger a release
