@@ -13,18 +13,18 @@
       {
         "preset": "angular",
         "releaseRules": [
-          { "type": "docs", "release": "patch" },
           { "type": "refactor", "release": "patch" },
           { "type": "style", "release": "patch" },
           { "type": "test", "release": "patch" },
-          { "type": "chore", "release": "patch" }
+          { "type": "chore", "release": "patch" },
+          { "type": "docs", "release": false }
         ],
         "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
         }
       }
     ],
     "@semantic-release/github",
-    "@semantic-release/npm"
+    ["@semantic-release/npm", { "npmPublish": false }]
   ]
 }
