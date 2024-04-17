@@ -3,7 +3,7 @@ This is a test project for semantic-release, it will automatically generate rele
 
 1. install semantic-release and other plugins
 ```
-npm i semantic-release @semantic-release/git @semantic-release/github @semantic-release/commit-analyzer -D
+npm i semantic-release @semantic-release/git @semantic-release/github @semantic-release/commit-analyzer @semantic-release/npm -D
 ```
 
 2. create .releaserc on root
